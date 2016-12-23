@@ -1,0 +1,146 @@
+#container {
+    background-color: #efe0b6;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.maps {
+    height: 618px;
+}
+
+/*.knop{
+    background-color: #dc5945;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+}*/
+.knop {
+    background-color: #dc5945;
+    border: none;
+    border-radius: 5px;
+    font-size: 48px;
+    height: 10vh;
+    width: 70px;
+    position: absolute;
+    color: #f8f8ff;
+    font-family: franchise;
+    text-decoration: none;
+    margin-left: 3vh;
+    margin-top: 87px;
+}
+
+.knop2 {
+    background-color: #dc5945;
+    border: none;
+    border-radius: 5px;
+    font-size: 48px;
+    height: 10vh;
+    width: 70px;
+    position: absolute;
+    color: #f8f8ff;
+    font-family: franchise;
+    text-decoration: none;
+    margin-left: 3vh;
+    margin-top: 87px;
+    padding-top: 15px;
+}
+
+@media screen and (min-width: 992px) { 
+    .col-xs-offset-8{
+        margin-left: 75%;
+    }
+    .knop2 {
+        margin-left: -1vh;
+    }
+}
+
+@media screen and (min-width: 1200px) { 
+    .col-xs-offset-8{
+        margin-left: 60%;
+    }
+    .knop2 {
+        margin-left: -1vh;
+    }
+}
+
+@media screen and (max-width: 992px) { 
+    .col-xs-offset-8{
+        margin-left: 75%;
+    }
+    .knop2 {
+        margin-left: -1vh;
+    }
+}
+
+@media screen and (max-width: 940px) { 
+    .col-xs-offset-8{
+        margin-left: 74%;
+    }
+    .knop2 {
+        margin-left: -1vh;
+    }
+}
+
+@media screen and (max-width: 865px) { 
+    .col-xs-offset-8{
+        margin-left: 73%;
+    }
+    .knop2 {
+        margin-left: -1vh;
+    }
+}
+
+@media screen and (max-width: 770px) { 
+    .col-xs-offset-8{
+        margin-left: 72%;
+    }
+    .knop2 {
+        margin-left: -1vh;
+    }
+}
+
+@media screen and (max-width: 660px) { 
+    .col-xs-offset-8{
+        margin-left: 71%;
+    }
+    .knop2 {
+        margin-left: -1vh;
+    }
+}
+
+@media screen and (max-width: 580px) { 
+    .col-xs-offset-8{
+        margin-left: 69%;
+    }
+    .knop2 {
+        margin-left: -1vh;
+    }
+}
+
+@media screen and (max-width: 500px) { 
+    .col-xs-offset-8{
+        margin-left: 67%;
+    }
+    .knop2 {
+        margin-left: -1vh;
+    }
+}
+
+@media screen and (max-width: 440px) { 
+    .col-xs-offset-8{
+        margin-left: 65%;
+    }
+    .knop2 {
+        margin-left: -1vh;
+    }
+}
+
+@media screen and (max-width: 385px) { 
+    .col-xs-offset-8{
+        margin-left: 63%;
+    }
+    .knop2 {
+        margin-left: -1vh;
+    }
+}

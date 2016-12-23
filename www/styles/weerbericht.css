@@ -1,0 +1,38 @@
+.container{
+    background-color: #efe0b6;
+    border: 5px transparent solid;
+    margin-top: -8px;
+    border-radius: 5px;
+}
+
+iframe {
+    border-radius: 5px;
+    border: #efe0b6 solid 5px;
+    height: 375px;
+    margin-top: -8px;
+}
+
+.titel {
+    background-color: #efe0b6;
+    border: 5px transparent solid;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    height: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    float: right;
+}

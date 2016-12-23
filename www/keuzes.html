@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles/grid.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="styles/keuzes.css">
+   
+  <link rel="stylesheet" href="styles/presentational-only/presentational-only.css">
+
+  <!-- responsive-full-background-image.css stylesheet contains the code you want -->
+  <link rel="stylesheet" href="styles/responsive-full-background-image.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!-- Not required: jquery.min.js and presentational-only.js is only used to demonstrate scrolling behavior of the viewport  -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="scripts/presentational-only/presentational-only.js"></script>
+</head>
+<body>
+    <!--------------------------   NAVIGATIE   --------------------------------->
+    <ul class="topnav" id="myTopnav">
+        <li><a class="active" href="index.html"><span class="header"><img src="content/header.png" alt="pijl"></span></a></li>
+        <li><a href="info.html">Info</a></li>
+        <li><a href="weerbericht.html">Weerbericht</a></li>
+        <li class="icon">
+            <a href="javascript:void(0);" style="font-size:25px;" onclick="myFunction()">☰</a>
+        </li>
+    </ul>
+    <!--------------------------   EIND NAVIGATIE   --------------------------------->
+
+        <div class="card-container ">
+            <form class="form-signin" action="tickets_logout.php" method="post">
+                <h1 class="col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-3 col-md-6 col-md-offset-4 col-lg-5 col-lg-offset-4" style="margin-bottom: 1px;">Startbestemming of gebruik uw locatie:
+                    <a onclick="geoFindMe();" style="padding: 10px;"><img src="content/locatie.png" style="width: 19px;"/></a></h1><div id="out"></div>
+                <select name="mydropdown" class="mydropdown1 col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-3 col-md-6 col-md-offset-4 col-lg-5 col-lg-offset-4">
+                    <option value="Cheese">Aaigemstraat</option>
+                    <option value="Bread">Aannemersstraat</option>
+                    <option value="Bread">Abdijmolenstraat</option>
+                </select>
+                <h1 class="col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-3 col-md-6 col-md-offset-4 col-lg-5 col-lg-offset-4">Eind bestemming</h1>
+                <select name="mydropdown" class="mydropdown col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-3 col-md-6 col-md-offset-4 col-lg-5 col-lg-offset-4">
+                    <option value="Milk">Zelfde als start</option>
+                    <option value="Cheese">Aaigemstraat</option>
+                    <option value="Bread">Aannemersstraat</option>
+                    <option value="Bread">Abdijmolenstraat</option>
+                </select>
+                <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-4 col-md-4 col-md-offset-5 col-lg-3 col-lg-offset-5">
+                <span id="reauth-email" class="reauth-email"></span>
+                
+                <div class="boxes">
+                <h2>Toeristische wandeling?</h2>
+                <input type="checkbox" name="toeristisch" class="form-control col-xs-offset-4" checked="checked"><h3>Ja</h3>
+                <input type="checkbox" name="toeristisch" class="form-control" ><h3>Nee</h3>
+                <h2>Hondenvoorzieningen?</h2>
+                <input type="checkbox" name="toeristisch" class="form-control col-xs-offset-4" checked="checked"><h3>Ja</h3>
+                <input type="checkbox" name="toeristisch" class="form-control" ><h3>Nee</h3>
+                <h2>Wandelaars in de buurt zoeken?</h2>
+                <input type="checkbox" name="toeristisch" class="form-control col-xs-offset-4" checked="checked"><h3>Ja</h3>
+                <input type="checkbox" name="toeristisch" class="form-control" ><h3>Nee</h3>
+                <h2>Weersverwachtingen?</h2>
+                <input type="checkbox" name="toeristisch" class="form-control col-xs-offset-4" checked="checked"><h3>Ja</h3>
+                <input type="checkbox" name="toeristisch" class="form-control" ><h3>Nee</h3>
+                </div>
+                </div>
+                <!--<input class="btn btn-lg btn-primary btn-block btn-signin" type="submit" name="login" value="Login">-->
+                <a href="wandelen.html" class="button col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-4 col-md-4 col-md-offset-5 col-lg-3 col-lg-offset-5" role="button">
+                    <button type="button"><span class="col-xs-1 col-xs-offset-1 col-lg-1 col-lg-offset-1"><img src="content/pijltje.png" alt="pijl"></span>Zoek wandelroute</button>
+                </a>
+            </form>
+        </div>
+        
+    <script src="scripts/geolocation.js"></script>
+    <script src="scripts/nav.js"></script>
+</body>
+</html>

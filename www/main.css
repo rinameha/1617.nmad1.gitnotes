@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "franchise";
+    src: url(../content/Franchise-Free-Bold.ttf) format("truetype");
+}
+
+body {
+    margin:0;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: solid 1px #f8f8ff;
+}
+
+ul.topnav li {
+    float: left;
+    padding-top: 9px;
+    padding-bottom: 5px;
+}
+
+ul.topnav li a {
+  color: #f8f8ff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 21px;
+  font-family: Bookman Old Style;
+}
+
+ul.topnav li a img {
+    padding: 0;
+}
+
+ul.topnav li a:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+
+ul.topnav li.icon {
+    display: none;
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: -7px;
+    top: -15px;
+    border-top: #f8f8ff;
+  }
+
+ ul.topnav{
+     border: none;
+ }
+
+.topnav ul li{
+     border-top: #f8f8ff;
+ }
+
+
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+    
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    background-color: #37444B;
+  }
+
+    ul.topnav.responsive li a:active {
+    display: block;
+    text-align: left;
+  } 
+
+  ul.topnav.responsive li a:hover {
+    display: block;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);;
+  } 
+
+}
+
+.logogroot {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+button {
+    background: rgba(94,60,17,0.2);
+    border: solid 2px #f8f8ff;
+    border-radius: 5px;
+    font-size: 40px;
+    height: 80px;
+    color: #f8f8ff;
+    font-family: franchise;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+button:hover{
+    text-decoration: underline;
+}
+
+.header{
+    height: 20px;
+}

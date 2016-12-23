@@ -1,0 +1,167 @@
+.maps{
+    border: solid #3cb19c 5px;
+    border-radius: 5px;
+}
+
+#container {
+    background-color: #efe0b6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.textMaps>p{
+    color: #3c3c3b;
+    display: inline-block;
+    font-family: Bookman Old Style;
+}
+
+.textMaps2>p{
+    color: #3c3c3b;
+    display: inline-block;
+    font-family: Bookman Old Style;
+}
+
+button {
+    background: #3c3c3b;
+    border: solid 2px #3c3c3b;
+    border-radius: 5px;
+    color: #f8f8ff;
+    font-family: franchise;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 100px) { 
+.maps{
+    height: 270px;
+}
+
+.textMaps {
+    margin-top: 30px;
+}
+
+.textMaps2 {
+    margin-top: 10px;
+}
+
+.textMaps>p{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.textMaps2>p{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+button {
+    font-size: 30px;
+    height: 40px;
+    padding-top: 2px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+}
+
+@media screen and (min-width: 549px) { 
+.maps{
+    height: 270px;
+}
+
+.textMaps {
+    margin-top: 30px;
+}
+
+.textMaps2 {
+    margin-top: 10px;
+}
+
+.textMaps>p{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.textMaps2>p{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+button {
+    font-size: 30px;
+    height: 40px;
+    padding-top: 2px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+}
+
+@media screen and (min-width: 992px) { 
+.maps{
+    height: 270px;
+}
+
+.textMaps {
+    margin-top: 30px;
+}
+
+.textMaps2 {
+    margin-top: 10px;
+}
+
+.textMaps>p{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.textMaps2>p{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+button {
+    font-size: 30px;
+    height: 40px;
+    padding-top: 2px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+}
+
+@media screen and (min-width: 1200px) { 
+.maps{
+    height: 335px;
+}
+
+.textMaps {
+    margin-top: 30px;
+}
+
+.textMaps2 {
+    margin-top: 10px;
+}
+
+.textMaps>p{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.textMaps2>p{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+button {
+    font-size: 30px;
+    height: 40px;
+    padding-top: 2px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+}
